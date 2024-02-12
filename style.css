@@ -91,6 +91,7 @@ img {
     color:#fff;
     border-radius:5px;
     padding:18px 32px;
+    display:flex;
 }
 .button:hover{
     background:#000;
@@ -101,6 +102,8 @@ img {
     color:#fff;
     border-radius:5px;
     padding:18px 32px;
+    display:flex;
+    margin-top:10px;
 }
 .top-content button2:hover{
     background:#000;
