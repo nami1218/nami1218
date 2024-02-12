@@ -88,7 +88,7 @@ img {
     background-position: center top;
 }
 #top {
-    background-image: url(../images/main-bg.jpg);
+    background-image:main-bg.jpg;
     min-height: 100vh;
 }
 #top .page-title {
