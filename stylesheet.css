@@ -1,0 +1,584 @@
+@charset "UTF-8";
+
+/*　共通部分
+---------------------------------*/
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Zen+Kurenaido","Zen Old Mincho","Inter","Junge","Jacques Francois";
+    line-height: 1.7;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* header
+--------------------------------------*/
+.logo {
+    width: 80px;
+    margin-top: 14px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: black;
+}
+.main-nav a:hover {
+    color: azure;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*TOP
+----------------------------------------------*/
+.page-title {
+    font-size: 5rem;
+    text-align: left;
+    margin-top: 10%;
+}
+.top-content h3 {
+    font-size: 3rem;
+    text-align: right;
+    margin: 10px 0 42px;
+}
+.top-content p {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 10px 0 42px;
+}
+/*見出し*/
+.page-title {
+    font-family: 'Philosopher',serif;
+    font-weight: normal;
+    color: #fff;
+}
+.top-content h3 {
+    font-family: 'Philosopher',serif;
+    font-weight:100;
+    color: #fff;
+    letter-spacing: 0.05em;
+}
+.top-content p {
+    font-family:'Philosopher',serif;
+    color: #fff;
+}
+/*大きな背景画像*/
+.big-bg {
+    background-size:cover ;
+    background-position: center top;
+}
+#top {
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+}
+#top .page-title {
+    text-transform: none;
+}
+/*ABOUT
+-----------------------------------*/
+#about {
+    background-image: url(../images/about-bg.png);
+    background-size: cover;
+}
+#about .page-title {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+/*1段目
+---------------------------*/
+.container {
+  display: grid;/*グリッドレイアウト*/
+  grid-template-rows: 9, 1fr;
+  grid-template-columns: 10,1fr;
+  margin-top: 50px;
+ }
+.itemA {
+  grid-row-start: 1;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 3;
+} 
+.itemB {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.itemC {
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.itemD {
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+/*やぎ写真
+--------------------------------*/
+.box {
+    width: 250px;
+    height: 400px;
+}
+/*プロフ
+-----------------------------------*/
+.card{
+    width: 288px;
+    height: auto;
+  }
+  .card-skin2{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  }
+  .card__textbox{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  .card__textbox > * + *{
+    margin-top: 10px;
+  }
+  .card__overviewtext{
+    font-size: 15px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+    list-style-position: inside;
+  }
+  /*プロフ２
+  --------------------------------*/
+  .card-skin3{
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  }
+  .card__textbox4{
+    width: 330px;
+    height: 330px;
+    padding: 2rem;
+    border-radius: 50%;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  .card__textbox4 > * + *{
+    margin-top: 10px;
+  }
+  .card__overviewtext5{
+    font-size: 15px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+  }
+  /*得意
+  ------------------------------------*/
+
+  .card2{
+    width: 370px;
+    height: 370px;
+  }
+  .card__textbox2{
+    width: 100%;
+    height: 100%;
+    padding: 3em;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  .card__textbox2 > * + *{
+    margin-top: 15px;
+  }
+  .card__titletext{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .card__overviewtext2{
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .card__overviewtext3{
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+    text-align: right;
+    margin-top: 60px;
+  }
+  .card-skin{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  }
+  .grid3 {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+} 
+  /*可能
+  --------------------------------------*/
+  .card__overviewtext4{
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+  }
+
+.card__textbox3{
+    width: 600px;
+    height: 100px;
+    padding: 1em;
+    background: #ffffff;
+    box-sizing: border-box;
+    
+  }
+  .card__textbox3 > * + *{
+    margin-top: 15px;
+  }
+  .card3{
+    width: 600px;
+    height: auto;
+  }
+  /*使用
+  -----------------------------------*/
+  .card__overviewtext6{
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Philosopher',serif;
+    text-align: center;
+    margin: auto;
+  }
+  /*大切
+  --------------------------------------*/
+  .card__textbox5{
+    width: 900px;
+    height: 280px;
+    padding: 2.5em;
+    background: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 75px;
+  }
+  .card__textbox5 > * + *{
+    margin-top: 15px;
+  }
+  .card4{
+    width: 900px;
+    height: 280px;
+    margin-bottom: 75px;
+  }
+/*可能、使用グリッドレイアウト
+---------------------------------------------*/
+.grid4 {
+  display: grid;
+  grid-template-columns: 4,1fr;
+  grid-template-rows: 1,1fr;
+}
+.container2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: ;
+  grid-row-end: ;
+}
+/*サブタイトル
+--------------------------------------------*/
+.itemB {
+  font-family: 'Philosopher',serif;
+  font-size: 25px;
+} 
+.itemE {
+  font-family: 'Philosopher',serif;
+  font-size: 25px;
+  margin-top: 50px;  
+} 
+.itemF {
+  font-family: 'Philosopher',serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.itemG {
+  font-family: 'Philosopher',serif;
+  font-size: 25px;
+  margin: 50px 0;
+}
+.itemH {
+  font-family: 'Philosopher',serif;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*フッター
+---------------------------------------------*/
+footer {
+    background: #d9d9d9;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    color: black;
+    font-size: 1.125rem;
+}
+
+/*WORK
+------------------------------------------*/
+#work {
+    background-image: url(../images/work-bg.jpg);
+    background-size: cover;
+}
+#work .page-title {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item p {
+  font-family: 'Philosopher',serif;
+}
+
+/*CONTACT
+--------------------------------------------*/
+.section-header {
+  font-family: 'Philosopher',serif;
+  font-size: 70px;
+  text-align: center;
+}
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Philosopher',serif;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Philosopher',serif;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+  
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+  font-family: 'Philosopher',serif;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+    font-family: 'Philosopher',serif;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+  font-family: 'Philosopher',serif;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+    font-family: 'Philosopher',serif;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Philosopher',serif;
+}
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+    font-family: 'Philosopher',serif;
+  }
+}
+
+/*モバイル版
+-------------------------------------------*/
+@media (max-width:600px){
+  .page-title{
+    font-size: 2.5rem;
+  }
+
+  /*HEADER */
+  .main-nav{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li{
+    margin: 0 20px;
+  }
+  /*HOME*/
+  .top-content {
+    margin-top: 20%;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*ABOUT*/
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .grid3 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .grid4 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .grid5 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
