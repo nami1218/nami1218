@@ -66,6 +66,10 @@ img {
     text-align: center;
     margin: 10px 0 42px;
 }
+.top-content img {
+    background-size:cover;
+}
+
 /*見出し*/
 .page-title {
     font-family: 'Philosopher',serif;
