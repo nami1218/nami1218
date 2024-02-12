@@ -90,7 +90,7 @@ img {
     background-position: center top;
 }
 #top {
-    background-image: url(https://github.com/nami1218/nami1218/blob/main/main-bg.jpg?raw=true);
+    background-image: url("https://github.com/nami1218/nami1218/blob/main/main-bg.jpg?raw=true");
     min-height: 100vh;
 }
 #top .page-title {
@@ -99,7 +99,7 @@ img {
 /*ABOUT
 -----------------------------------*/
 #about {
-    background-image: url(https://github.com/nami1218/nami1218/blob/main/about-bg.png?raw=true);
+    background-image: url("https://github.com/nami1218/nami1218/blob/main/about-bg.png?raw=true");
     background-size: cover;
 }
 #about .page-title {
@@ -356,7 +356,7 @@ footer p {
 /*WORK
 ------------------------------------------*/
 #work {
-    background-image: url(https://github.com/nami1218/nami1218/blob/main/work-bg.jpg?raw=true);
+    background-image: url("https://github.com/nami1218/nami1218/blob/main/work-bg.jpg?raw=true");
     background-size: cover;
 }
 #work .page-title {
