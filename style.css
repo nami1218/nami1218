@@ -85,14 +85,14 @@ img {
     color: #fff;
 }
 /*ボタン*/
-.top-content button {
+.button {
     font-size: 1.375rem;
     background:#lightgray;
     color:#fff;
     border-radius:5px;
     padding:18px 32px;
 }
-.top-content button:hover{
+.button:hover{
     background:#black;
 }
 .top-content button2 {
