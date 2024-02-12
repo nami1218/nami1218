@@ -101,7 +101,7 @@ img {
 /*ABOUT
 -----------------------------------*/
 #about {
-    background-image: url(../images/about-bg.png);
+    background-image:about-bg.png;
     background-size: cover;
 }
 #about .page-title {
