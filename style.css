@@ -66,10 +66,7 @@ img {
     text-align: center;
     margin: 10px 0 42px;
 }
-body top-cotent {
-    background-image:main-bg.jpg;
-    background-size:cover;
-}
+
 
 /*見出し*/
 .page-title {
@@ -93,7 +90,7 @@ body top-cotent {
     background-position: center top;
 }
 #top {
-    background-image:main-bg.jpg;
+    background-image: url(../images/main-bg.jpg);
     min-height: 100vh;
 }
 #top .page-title {
@@ -102,7 +99,7 @@ body top-cotent {
 /*ABOUT
 -----------------------------------*/
 #about {
-    background-image:about-bg.png;
+    background-image: url(../images/main-bg.jpg);
     background-size: cover;
 }
 #about .page-title {
