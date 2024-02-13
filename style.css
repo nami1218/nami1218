@@ -88,17 +88,15 @@ img {
 * {
   box-sizing: border-box;
 }
-body {
+
+/* 装飾 */
+a {
   min-height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* 装飾 */
-a {
   color: #fff;
   background: #d3d3d3;
   padding: 10px 30px;
