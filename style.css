@@ -88,22 +88,24 @@ img {
 * {
   box-sizing: border-box;
 }
-
-/* 装飾 */
-a {
+body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* 装飾 */
+button {
   color: #fff;
   background: #d3d3d3;
   padding: 10px 30px;
   display: inline-block;
   border-radius: 5px;
-  text-decoration: none;
-  font-family:'Philosopher',serif;  
+  border: none;
+  cursor: pointer;
 }
 
 /*大きな背景画像*/
