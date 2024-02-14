@@ -95,7 +95,6 @@ button {
   border: none;
   cursor: pointer;
   font-family: 'Philosopher',serif;  
-  text-align:center;  
 }
 
 button:hover {
