@@ -93,7 +93,9 @@ img {
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Philosopher',serif;
-  text-align:center;  
+  text-align:center;
+  justify-content:center;
+  align-items:center;  
 }
 
 .button:hover {
