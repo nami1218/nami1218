@@ -85,20 +85,19 @@ img {
     color: #fff;
 }
 /*ボタン*/
-button {
+.button {
   color: #fff;
   background: #d3d3d3;
   padding: 10px 30px;
   display: inline-block;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
   font-family: 'Philosopher',serif;  
 }
 
-button:hover {
-    color:#fff;
+.button:hover {
     background:#575757;
+}    
 
 /*大きな背景画像*/
 .big-bg {
