@@ -85,7 +85,7 @@ img {
     color: #fff;
 }
 /*ボタン*/
-.button {
+button {
   color: #fff;
   background: #d3d3d3;
   padding: 10px 30px;
@@ -96,7 +96,7 @@ img {
   font-family: 'Philosopher',serif;  
 }
 
-.button:hover {
+button:hover {
     color:#fff;
     background:#575757;
 
