@@ -92,7 +92,8 @@ img {
   display: inline-block;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'Philosopher',serif;  
+  font-family: 'Philosopher',serif;
+  text-align:center;  
 }
 
 .button:hover {
