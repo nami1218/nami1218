@@ -99,12 +99,17 @@ img {
   width: 150px;
   height: 50px;
   font-size:15px;
-  margin:
 }
 
 .button:hover {
     background:#575757;
 }    
+.button2 {
+    margin: 0 auto;
+}
+.button3 {
+    margin: 0 auto;
+}
 
 /*大きな背景画像*/
 .big-bg {
