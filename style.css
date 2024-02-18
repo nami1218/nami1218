@@ -87,7 +87,7 @@ img {
 /*ボタン*/
 .button {
   color: #fff;
-  background: #d3d3d3;
+  background: #575757;
   padding: 10px 30px;
   display: flex;
   border-radius: 5px;
@@ -104,7 +104,7 @@ img {
 }
 
 .button:hover {
-    background:#575757;
+    background:#d3d3d3;
 }    
 
 
